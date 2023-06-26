@@ -2,10 +2,10 @@ import React from 'react'
 import AllPhoto from './AllPhoto'
 
 
-const Gallery = () => {
+const GalleryHeader = () => {
   return (
     <>
-      <section className="py-12">
+      <section className="py-11">
         <div className="container">
           <div className="flex px-6">
             <h4 className='text-3xl font-bold text-dark pt-1'>XI 4 Gallery</h4>
@@ -21,12 +21,10 @@ const Gallery = () => {
               Random
             </button>
           </div>
-
-          <AllPhoto />
         </div>
       </section>
     </>
   )
 }
 
-export default Gallery
+export default GalleryHeader

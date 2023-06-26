@@ -12,7 +12,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className='relative bg-light before:content[""] before:w-full before:h-16 before:bg-light before:absolute before:-top-16 before:rounded-tr-[80px]'>
+      <section className='relative pb-2 bg-light before:content[""] before:w-full before:h-16 before:bg-light before:absolute before:-top-16 before:rounded-tr-[80px]'>
         <div className="container">
           <div className="px-6">
             <h3 className='text-text'>Hallo there✌</h3>
@@ -30,7 +30,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="py-36">
+      <section className="py-36 bg-light">
         <div className="container">
           <div className="px-6">
             <h2 className='text-2xl font-bold text-dark pt-1'>About Class</h2>

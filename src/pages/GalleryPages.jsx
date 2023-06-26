@@ -1,9 +1,9 @@
 import React from 'react'
-import Gallery from '../components/gallery/Gallery'
+import GalleryPage from '../components/gallery/GalleryPage'
 
 function GalleryPages() {
   return (
-    <Gallery />
+    <GalleryPage />
   )
 }
 
