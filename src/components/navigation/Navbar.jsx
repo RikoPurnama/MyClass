@@ -1,8 +1,5 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
-import home from "../../assets/icon/home.svg"
-import gallery from "../../assets/icon/gallery.svg"
-import jadwal from "../../assets/icon/jadwal.svg"
 
 export const Navbar = () => {
   const activeLink = ({isActive}) => {
@@ -17,9 +14,9 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='fixed bottom-0 w-full z-50 '>
+      <nav className='fixed bottom-0 w-full z-50 bg-transparent backdrop-blur-sm'>
         <div className='container'>
-          <div className="w-full flex justify-center py-4 bg-light to-transparent">
+          <div className="w-full flex justify-center py-4 ">
             <ul className='w-full max-w-[250px] flex justify-between items-center '>
               <li>
                 <NavLink to="/" style={activeLink} className='flex justify-center p-1'>

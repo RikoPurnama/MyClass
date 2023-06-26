@@ -1,5 +1,4 @@
 import React from 'react'
-import AllPhoto from './AllPhoto'
 
 
 const GalleryHeader = () => {
