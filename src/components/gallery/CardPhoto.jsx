@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 
 
 const CardPhoto = ({ photo }) => {
-  const [show, setShow] = useState('h-20')
+  const [show, setShow] = useState('h-16')
 
   let handleClick = () => {
 
-    if (show ==='h-20') {
+    if (show ==='h-16') {
       setShow('h-52 rounded-xl shadow-card')
     } else {
-      setShow('h-20')
+      setShow('h-16')
     }
   }
 
